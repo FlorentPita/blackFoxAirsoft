@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="appli.beta.blackfox"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="appli.beta.blackfox.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="appli.beta.blackfox.Horsligne"
+            android:label="@string/title_activity_horsligne"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="appli.beta.blackfox.Enligne"
+            android:label="@string/title_activity_enligne"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="appli.beta.blackfox.Presentation"
+            android:label="@string/title_activity_presentation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="appli.beta.blackfox.Gallerie"
+            android:label="@string/title_activity_gallerie"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="appli.beta.blackfox.Reglement"
+            android:label="@string/title_activity_reglement"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="appli.beta.blackfox.Apropos"
+            android:label="@string/title_activity_apropos" >
+        </activity>
+        <activity
+            android:name="appli.beta.blackfox.puissance"
+            android:label="@string/title_activity_puissance" >
+        </activity>
+        <activity
+            android:name="appli.beta.blackfox.Puissance"
+            android:label="@string/title_activity_puissance" >
+        </activity>
+    </application>
+
+</manifest>

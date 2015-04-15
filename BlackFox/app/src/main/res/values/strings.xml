@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BlackFox</string>
+    <string name="action_settings">A PROPOS</string>
+    <string name="action_quit">QUITTER</string>
+    <string name="title_activity_horsligne">Horsligne</string>
+    <string name="titre">BlackFox Mode Hors ligne</string>
+    <string name="title_activity_enligne">Enligne</string>
+    <string name="btnAcc">Presentation de l association</string>
+    <string name="btnRegle">Reglements</string>
+    <string name="BtnGallerie">Gallerie photos</string>
+    <string name="title_activity_presentation">Presentation</string>
+    <string name="title_activity_gallerie">Gallerie</string>
+    <string name="title_activity_reglement">Reglement</string>
+    <string name="titreAcc">Welcome my friends</string>
+    <string name="descriptionAcc">prout</string>
+    <string name="btnPuissance">Test de puissance</string>
+    <string name="resultatConv">          </string>
+    <string name="chamPuiss">Entrez votre puissance</string>
+    <string name="champGramm">Grammage lors du test</string>
+    <string name="gramVoulu">Grammage voulu</string>
+
+    <!-- Contenu HTML -->
+    <string name="html_content">
+<![CDATA[
+        	<html>
+		    <body style="text-align:justify;">
+		    <h3><FONT COLOR="red">Respect de la sécurité:</FONT></h3>
+		    <li>Port obligatoire de protection oculaire ( Lunettes au minimum )</li>
+		    <li>Les répliques doivent être transportées dans des sacoches ou mallettes jusqu’à l’entrée du terrain.</li>		    
+		    <li>Interdiction du port d’arme blanche sur le terrain ( Toléré en safe-zone pour des raisons utilitaires )</li>
+		    <h3><FONT COLOR="red">Puissance maximum des répliques (+ ou – 10fps) :</FONT></h3>
+		    <li>AEG en full: 350 fps max.</li>
+		    <li>AEG en semi: 400 fps max.</li>
+		    <li>Armes de types snipers: 450 fps max.</li>
+		    <li>GBB : 300 fps.</li>
+		    <h3><FONT COLOR="red">Distance de tir minimum:</FONT></h3>
+		    <li>AEG: 10m</li>
+		    <li>Snipers: 15m</li>
+		    <li>Inférieur à 10m : Utilisation obligatoire du GBB.</li>
+		    <li>Interdiction absolue de tirer à bout portant.</li>
+		    <h3><FONT COLOR="red">Règles sur le terrain :</FONT></h3>
+		    <li>Etat de sobriété obligatoire : pas d’alcool ou substances illicites. ( Une bière est tout de même acceptée le midi )</li>
+		    <li>Respecter la propreté des  lieux . ( Des poubelles sont à votre disposition )</li>
+		    <li>Pas de tirs sur les animaux et respect des promeneurs.</li>
+		    <li>Respect des infrastructures  et matériels.</li>
+		    <h3><FONT COLOR="red">Respect des joueurs et du Fair-play:</FONT></h3>
+		    <li>Respect des règles de jeu en vigueur.</li>
+		    <li>Respecter les adversaires, partenaires et organisateurs.</li>
+		    <li>Pas de violence ou de tricherie sous toutes ses formes.</li>
+		    <li>Respect de la « safe-zone ».</li>
+		    <p>La « safe-zone » étant une zone sécurisé , le chargeur de votre réplique dois être désengagé et le cran de sûreté enclenché. De plus, aucun tir ne sera toléré en cette zone. Ainsi vous pourrez enlever votre protection oculaire.</p>
+		    <h3><FONT COLOR="red">Règlement général:</FONT></h3>
+		    <li> Interdiction de tirer déjà touchés de façon intentionnelle.</li>
+		    <li>Interdiction de tirer en présence de civils. ( Un arrêt de jeu sera mise en place )</li>
+		    <li><u>En cas de non-respect des règles, un organisateur pourras prendre la décision d’exclure un joueur de la partie et du terrain.</u></li>
+		    </body>
+		    </html>
+    	]]>
+    </string>
+
+    <!-- Contenu HTML -->
+    <string name="html_propos">
+<![CDATA[
+			<html>
+		    <body style="text-align:justify;">
+		    <h3>A propos: </h3>
+		    <p> Black Fox est une application créée pour l’association Black Fox Airsoft 77. </p>
+		    <p> Application développée par : Nicolas S. et Florent P. </p>
+		    <p> Les images présentes sur le site sont la propriété de l’association Black Fox, toute utilisation de ces images nécéssite une autorisation de la part du président. Pour plus d’informations veuillez nous contacter via le formulaire de contact présent sur notre site </p>
+		    <h3> Liens utiles: </h3>
+		    <a href = "http://blackfoxairsoft.16mb.com" >Site de l’association </a></br>
+		    <h3> Site Web des développeur: </h3>
+		    <a href = "http://savona-nicolas.craym.eu" >Portfolio de Nicolas S. </a>
+		    <p>Site Web de Florent P. à venir.</p>
+		    </body>
+		    </html>
+
+    	]]>
+    </string>
+    <string name="title_activity_apropos">Apropos</string>
+    <string name="title_activity_puissance">puissance</string>
+
+</resources>
